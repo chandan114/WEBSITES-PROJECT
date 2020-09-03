@@ -1,0 +1,239 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DrwanyMusic</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+	<link rel="stylesheet" type="text/css" href="Style.css">
+
+	
+
+<!-- 	<script src="/audiojs/audio.min.js"></script>
+
+	<script>
+  audiojs.events.ready(function() {
+    var as = audiojs.createAll();
+  });
+</script> -->
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+	<nav  class="navbar navbar-expand-md navbar-dark">
+		
+		<div class="container-fluid">
+			
+			<!-- <a href="#" class="navbar-brand title">CHANDAN</a> -->
+			<img src="WebsiteLogo.png"alt="Cinque Terre" class=" logohead img-fluid justify-content-sm-center">
+			<a href="#" class="navbar-brand text-dark font-weight-bold">Drawny Beats</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#collapsenav">
+				<span > <img src="list.png" width="25px" height="25px"></span>
+			</button>
+
+			<div class="collapse navbar-collapse float-right text-center" id="collapsenav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="#section2" class="nav-link text-dark"><strong>BEATS</strong> </a>
+					</li>
+					<li class="nav-item">
+						<a href="#section3" class="nav-link text-dark"><strong>SOCIAL</strong></a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link text-dark"><strong>CONTACT</strong></a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+			<div class="Describe container-fluid  text-center text-sm-center">
+				<div class="logo">
+					<img src="musictape.png" class="logoimg"  alt="Cinque Terre">
+					<p class="display-3 container">Drawny Beats.</p>
+				<h5> <p>Feel The Beat                   </p> </h5>
+				<button type="button" class="btn btn-primary" onclick="explore()" >EXPLORE</a></button>
+				</div>
+				
+			</div>
+
+			<!-- Beats//////////////////////////////////////////////////////////////////////////// -->
+
+			<div class="Beats container-fluid" id="section2">
+				<p class="bheader">Beats.</p>
+
+				<div>
+					
+
+				</div>
+
+			<div class="container musicplayer">
+
+
+				<div>
+
+					<table  class="table table-striped"  >
+        <thead>
+            <tr>
+                <th class="Number">No.</th>
+                <th>BEAT</th>
+                <th>ID NO.</th>
+                <th>PRICE</th>
+                <th>PLAY</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+
+
+
+                <tr>
+                <td class="Number">1</td>
+                <td>System</td>
+                <td>556</td>
+                <td>$15</td>
+                <td class="tapmusic" onclick="tap('faded.mp3')">Play</td>
+                
+                <tr>
+
+                               <tr>
+                 <td class="Number">1</td>
+                <td>System</td>
+                <td>556</td>
+                <td>$15</td>
+                <td class="tapmusic" onclick="tap('song2.mp3')">Play</td>
+                
+                <tr>
+                              <tr>
+                 <td class="Number">1</td>
+                <td>System</td>
+                <td>556</td>
+                <td>$15</td>
+                <td>Play</td> 
+                
+                <tr>
+                             <tr>
+                 <td class="Number">1</td>
+                <td>System</td>
+                <td>556</td>
+                <td>$15</td> 
+                <td>Play</td>
+                
+                <tr>
+
+                <tr>
+                 <td class="Number">1</td>
+                <td>System</td>
+                <td>556</td>
+                <td>$15</td>
+                <td>Play</td>
+               
+                <tr>
+                           <tr>
+                 <td class="Number">1</td>
+                <td>System</td>
+                <td>556</td>
+                <td>$15</td>
+                <td>Play</td>
+                
+  
+                <tr>
+                
+    </table>
+
+					
+
+				</div>
+				
+				
+    <div class="player">
+    	<h5>Drawny Beats.</h5>
+				<img src="song.png" class="logoimg">
+				<audio id="myAudio">
+  <source src=" " type="audio/mpeg">
+</audio>
+
+				<div>
+
+					<input type="range" value="0" min="0"  id="range" onchange="changetime()" class="level">
+					
+				</div>
+				
+
+				<div class="buttons">
+					<button id="pre"><img src="pause.png" class="playpauseimage"></button>
+					
+				</div>
+
+
+    </div>
+
+
+			</div>
+
+
+				
+			</div>
+
+
+
+			<div class="youtube container-fluid" id="section3">
+
+				<div class="container youtubecontent ">
+
+					<div >
+					<p class="follow">Subscribe on</p>
+					<p class="youtubetext">YOUTUBE.</p>
+				</div>
+				
+				<div class=" vid ">
+
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/XfOBSeSco5o?start=60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					
+				</div>
+
+
+
+					
+				</div>
+
+					<div class="social container">
+					<img src="youtube.png" class="logosocial">
+					<img src="soundcloud.png" class="logosocial">
+					<img src="facebook.png" class="logosocial">
+					<img src="twitter.png" class="logosocial">
+				</div>
+				
+			</div>
+
+
+			<script type="text/javascript" src="script.js"></script>
+			
+
+			
+</body>
+</html>
